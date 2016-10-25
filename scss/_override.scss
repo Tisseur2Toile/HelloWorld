@@ -14,7 +14,7 @@
 
 #apropos {
   h2 {
-    margin-bottom: 110px;
+    margin-bottom: rel-calc(110);
   }
 }
 #portfolio {
@@ -42,7 +42,7 @@
   width: 100%;            // --> Toute la largeur de la zone (De la page)
   text-align: center;     // --> Texte est aligné au centre
 
-  font-size: 2.25rem;     // 36 / 16 = 2,25 ---- 2.25rem
+  font-size: rem-calc(36);     // 36 / 16 = 2,25 ---- 2.25rem
 
   &.descente {
     position: absolute;     // --> Positionné à 75px du bas de la zone
@@ -51,8 +51,8 @@
 }
 .documentsections {
   position: relative;
-  padding-top: 65px;
-  padding-bottom: 185px;
+  padding-top: rem-calc(65);
+  padding-bottom: rem-calc(185);
 }
 
 figure {
