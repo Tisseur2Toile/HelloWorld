@@ -49,4 +49,11 @@
 //@include motion-ui-transitions;
 //@include motion-ui-animations;
 
-@import 'override';
+@import 'override/typos';
+@import 'override/tools';
+@import 'override/header';
+@import 'override/apropos';
+@import 'override/blog';
+@import 'override/illustration';
+@import 'override/portfolio';
+@import 'override/footer';
