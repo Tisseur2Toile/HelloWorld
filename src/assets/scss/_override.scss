@@ -1,4 +1,10 @@
 /* ----- ENTETE ---- */
+body {
+  font-family: 'Lato', sans-serif;
+}
+h1, h2 {
+  font-family: 'Abril Fatface', cursive;
+}
 #header {
   height: 100%;
   background-image: url('../img/bg-entete.jpg');
@@ -61,7 +67,8 @@
     width: 100%;
   }
   .menu > li {
-    width: 33.33333333333%;
+    //width: 33.3333333333333333333333%;
+    width: calc(100%/3);
     text-align: center;
   }
 }
