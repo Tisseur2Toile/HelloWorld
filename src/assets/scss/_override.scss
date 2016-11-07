@@ -26,6 +26,14 @@
   h2 {
     margin-bottom: 85px;
   }
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    min-width: 100%;
+  }
 }
 #blog {
   h2 {
@@ -70,9 +78,7 @@
   padding-bottom: rem-calc(185);
 }
 
-figure {
-  margin: 0;
-}
+
 
 .menu-top {
   font-size: rem-calc(12);
