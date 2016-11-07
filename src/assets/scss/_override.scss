@@ -36,6 +36,16 @@
   }
 }
 
+#illustration {
+  min-height: 450px;
+  height: 450px;
+  background-image: url('../img/hipster.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .social {
   a {
     padding: 0 !important;
