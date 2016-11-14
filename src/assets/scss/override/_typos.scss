@@ -1,4 +1,15 @@
+/* --- BOUCLE Palette... --- */
+@each $myvar in $foundation-palette {
+  $key: nth($myvar, 1);
+  $value: nth($myvar, 2);
+  /* -- #{$key} // #{$value} -- */
+  .#{$key} {
+    color: $value;
+  }
+}
+
 body {
+  @extend .alert;
   font-family: 'Lato', sans-serif;
 }
 h1, h2 {
