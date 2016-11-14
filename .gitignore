@@ -3,6 +3,7 @@ bower_components
 node_modules
 npm-debug.log
 css
-*.md
+CHANGELOG.md
+readme.md
 etc/
 dist/
